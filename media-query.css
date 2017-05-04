@@ -1,0 +1,135 @@
+/*-------1300px-------*/
+
+@media screen and (max-width:970px){
+
+    nav{
+        width:100vw;
+        margin: 15px 50px;;
+    }
+
+    nav a {
+        font-size: .8em;
+        padding: 0px 50px;
+    }
+
+    
+}
+
+@media screen and (max-width:855px){
+   
+    .gallery{
+        margin-left: 50px;
+    }
+    
+    .gallery a {
+       
+    }
+    
+    .gallery img {
+        width:30%;
+    }
+    
+    nav{
+        width:75%;
+        margin: 20px auto;
+    }
+    
+
+    .footer h2{
+        padding-top: 70px;
+    }
+    
+    .about > p{
+        font-size: .8em; 
+    }
+    
+     nav a {
+        font-size: .8em;
+        padding: 0px 40px;
+    }
+    
+    nav img{
+        display: none;
+    }
+
+}
+
+
+    
+   
+   
+@media screen and (max-width:800px){
+    nav a {
+        display: block;
+        margin: 0 auto;
+        width:60%;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    nav {
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+}
+    
+
+@media screen and (max-width:700px){    
+    
+    .about {
+        background-image:none;
+        height: 400px;
+    }
+        
+    .about > h2 {
+    float:none;
+    margin: 40px 50px 10px 50px;
+    
+    }
+        
+    .about > p{
+    float: none;
+    margin: 10px 50px;
+    width: 85%;
+    }
+        
+        
+@media screen and (max-width:500px){
+    
+    form{
+        width:95%;
+        margin: 0 auto;
+    }
+    
+    form > input{
+        width:95%;
+        margin: 20px 0px 0px 10px;
+    }
+    
+    form > button{
+        width:96%;
+        margin-left: 10px;
+    }
+    
+   
+    footer {
+        width:40%;
+    }
+    
+    footer a {
+        display: block;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    
+    .footer{
+margin-top: 150px;    
+    }
+ 
+    .gallery img {
+        width:45%;
+    }
+    
+    .gallery{
+        margin-left: 40px;
+    }
+}

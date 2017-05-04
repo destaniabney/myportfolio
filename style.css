@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+}
+
+
+/*-----------NAV--------*/
+nav > a{
+    font-family: sans-serif;
+    padding: 0px 60px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+nav > a:hover{
+    color: darkgray;
+}
+
+nav{
+    margin: 40px auto;
+    width:960px;
+} 
+
+/*-----------ABOUT---------*/
+.about > h2{
+ font-family: sans-serif;
+    font-weight: 400;
+    width:50%;
+    margin: 130px 53px 0px 0px;
+    float: right;
+}
+
+.about > p{
+    width:50%;
+    margin: 10px 53px 5px 560px;
+    line-height: 30px;
+    float: right;
+}
+
+.about{
+    background-image: url(images/about-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 600px;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+/*----------FOOTER--------*/
+
+.footer > h2 {
+    font-family: sans-serif;
+    font-weight: 400;
+    width:400px;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 110px;
+}
+
+.footer > h3{
+    font-family: sans-serif;
+    font-weight: 500;
+    width:150px;
+    margin: 20px auto;
+        
+}
+
+.contact > h3{
+    width:160px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: .9em;
+}
+
+footer{
+    width:490px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+footer > a{
+    font-family: sans-serif;
+    padding: 0 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;   
+}
+
+footer > a:hover{
+    color: darkgray;
+}
+
+.footer{
+    background-color: #eaeaea;
+}
+
+/*---------CONTACT FORM-------*/
+
+form{
+    width:600px;
+    margin: 0 auto;
+}
+
+form > input{
+    width:600px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+form > button{
+    width:550px;
+    height: 40px;
+    margin-left:30px;
+    margin-top: 20px;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    margin-bottom: 130px;
+}
+
+/*---------GALLERY EFFECTS---------*/
+
+.gallery{
+    margin: 0 auto;
+    width:vw;
+    max-width: 1270px;
+}
+
+.gallery > a {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+   
+}
+
+
+.gallery > a:hover {
+   -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+}
+
+
+.fancybox-slide--iframe .fancybox-content {
+overflow-y:visible;
+}
